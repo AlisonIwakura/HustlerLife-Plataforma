@@ -1,0 +1,19 @@
+{
+  "name": "unity-webgl-lobby",
+  "version": "1.0.0",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^4.22.1",
+    "mysql2": "^3.16.2",
+    "socket.io": "^4.8.3"
+  },
+  "description": "",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

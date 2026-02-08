@@ -1,5 +1,5 @@
 import { NextResponse } from "next/server";
-import { createConnection } from "lib/db"; // sua função de conexão
+import { createConnection } from "@/lib/db";
 import { RowDataPacket } from "mysql2/promise";
 
 const GAMES: Record<number, { name: string; img: string }> = {

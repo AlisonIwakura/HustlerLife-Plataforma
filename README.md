@@ -4,6 +4,7 @@
   <img src="https://img.shields.io/badge/node.js-LTS-green?style=for-the-badge&logo=node.js" />
   <img src="https://img.shields.io/badge/nginx-reverse--proxy-brightgreen?style=for-the-badge&logo=nginx" />
   <img src="https://img.shields.io/badge/pm2-process--manager-blue?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/mysql-database-orange?style=for-the-badge&logo=mysql" />
 </p>
 
 <p align="center">
@@ -41,19 +42,15 @@ Backend | Node.js
 Process Manager | PM2
 Proxy / Gateway | Nginx
 SSL | Let’s Encrypt (Certbot)
-Infra | VPS Linux
+Banco de Dados | MySQL
+Infra | VPS Linux (Hostinger)
 Versionamento | Git / GitHub
 
 ---
 
-## 📁 Versionamento & Git
+## 🔑 Acesso na VPS (Hostinger)
 
-### `.gitignore`
-```gitignore
-node_modules/
-.next/
-.env
-.env.local
-.env.production
-npm-debug.log*
-.DS_Store
+Acesse sua VPS via SSH:
+
+```bash
+ssh root@SEU_IP_DA_VPS

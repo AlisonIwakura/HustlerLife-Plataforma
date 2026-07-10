@@ -55,4 +55,8 @@ Acesse sua VPS via SSH:
 ```bash
 ssh root@SEU_IP_DA_VPS
 
+---
+
+
 <img width="1897" height="946" alt="hustler" src="https://github.com/user-attachments/assets/dcab6626-49ef-4c05-a087-51bf400e213c" />
+

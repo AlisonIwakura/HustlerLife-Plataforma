@@ -54,6 +54,7 @@ Acesse sua VPS via SSH:
 
 ```bash
 ssh root@SEU_IP_DA_VPS
+```
 
 # 🚀 HustlerLife Platform
 
